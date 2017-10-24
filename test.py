@@ -19,3 +19,6 @@ scores = [1, 3, 4, 2]
 print sum(scores)
 
 print max(scores)
+
+#Write a function that finds the average of scores
+#Write a function that also finds the average but drops the lowest two scores
