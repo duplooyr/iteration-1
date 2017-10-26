@@ -1,4 +1,4 @@
-#from iteration import *
+from iteration import *
 
 #scores = [100, 90, 85, 100, 0]
 
@@ -16,9 +16,15 @@
 
 scores = [1, 3, 4, 2]
 
-print sum(scores)
+#print sum(scores)
 
-print max(scores)
+#print max(scores)
 
+print avg(scores)
+
+print drop_2_average(scores)
 #Write a function that finds the average of scores
+
+
+
 #Write a function that also finds the average but drops the lowest two scores
