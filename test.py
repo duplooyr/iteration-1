@@ -23,8 +23,5 @@ scores = [1, 3, 4, 2]
 print avg(scores)
 
 print drop_2_average(scores)
-#Write a function that finds the average of scores
 
-
-
-#Write a function that also finds the average but drops the lowest two scores
+alternating_sum(scores)
