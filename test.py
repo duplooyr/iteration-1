@@ -16,6 +16,8 @@ from iteration import *
 
 scores = [1, 3, 4, 2]
 
+scores_2 = [1, 3, 2, 4, 5]
+
 #print sum(scores)
 
 #print max(scores)
@@ -24,4 +26,6 @@ print avg(scores)
 
 print drop_2_average(scores)
 
-alternating_sum(scores)
+print alternating_sum(scores)
+
+print sum_outside(scores_2, 2, 4)

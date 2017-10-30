@@ -53,14 +53,17 @@ def drop_2_average(list):
 	list.sort()
 	return float(sum(list[2:])) / len(list[2:])
 
-def alternating_sum(numbers):
-	current_number = 0
-	for n in numbers:
-		numbers[current_number]
-		print current_number
-		current_number = current_number + 1
-		
+def alternating_sum(list):
+	total = 0
+	for i in range(0, len(list)):
+		if i % 2 == 0:
+			total += list[i]
+		else: 
+			total -= list[i]
 
-		 
+	return total
 
-		
+def sum_outside(list,min,max):
+	list.sort()
+	total = sum(list[ :min]) + max + sum(list[max: ]) - min
+	return total
