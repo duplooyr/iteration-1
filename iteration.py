@@ -1,3 +1,4 @@
+import math
 # iteration pattern
 #doing the same thing once for each member of a list
 
@@ -33,18 +34,18 @@ def congratulations(names, scores):
 
 # accumulation pattern - a type of iteration
 # keep track of other data as we go
-# def sum(list):
-# 	total = 0
-# 	for n in numbers:
-# 		total += n
-# 	return total
+def sum(numbers):
+	total = 0
+	for n in numbers:
+		total += n
+	return total
 
-# def max(numbers):
-# 	current_max = numbers[0]
-# 	for n in numbers:
-# 		if n > current_max:
-# 			current_max = n
-# 	return current_max
+def max(numbers):
+	current_max = numbers[0]
+	for n in numbers:
+		if n > current_max:
+			current_max = n
+	return current_max
 
 def avg(list):
 	return float(sum(list)) / len(list)
@@ -67,3 +68,18 @@ def sum_outside(list,min,max):
 	list.sort()
 	total = sum(list[ :min]) + max + sum(list[max: ]) - min
 	return total
+
+def standard_deviation(list):
+	combined = sum(list[0: ])
+	average = float(combined) / len(list)
+	current_number = 0
+	running_total = 0
+	
+	for n in list:
+		step_1 = average - list[current_number]
+		squared = step_1 * step_1
+		running_total = running_total + squared
+		current_number = current_number + 1
+		
+	final_answer = math.sqrt(running_total)
+	return final_answer / 2

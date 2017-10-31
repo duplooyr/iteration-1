@@ -29,3 +29,5 @@ print drop_2_average(scores)
 print alternating_sum(scores)
 
 print sum_outside(scores_2, 2, 4)
+
+print standard_deviation(scores)
