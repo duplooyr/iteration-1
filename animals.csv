@@ -1,0 +1,42 @@
+Animal,Rating,Country
+Dog,100,United States
+Cat,100,Argentina
+Bird,20,Uganda
+Monkey,10,Cuba
+Elephant,15,India
+Seal,20,Antartica
+Ape,25,Cuba
+Gorilla,30,Cuba
+Dingo,35,Australia
+Rhino,40,Brazil
+Leopard,45,Brazil
+Jaguar,50,Brazil
+Puma,55,Brazil
+Panther,60,Brazil
+Snake,65,Brazil
+Donkey,70,Canada
+Horse,75,Canada
+Cheetah,80,Brazil
+Tiger,85,Brazil
+Lion,90,Brazil
+Giraffe,95,Africa
+Koala,100,Australia
+Whale,95,Ocean
+Fish,90,Ocean
+Dolphin,85,Ocean
+Shark,80,Australia
+Octopus,75,ocean
+Jellyfish,70,Ocean
+Squid,65,Ocean
+Mosquito,60,Brazil
+Fly,55,Brazil
+Beatle,50,Brazil
+Wombat,45,Australia
+Humans,40,Everwhere
+Iguana,35,Brazil
+Chamelion,30,Brazil
+Gecko,25,Brazil
+Hamster,20,United States
+Guinea Pig,15,United States
+Bear,10,United States
+Polar Bear,5,Antartica
