@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import sys
+from collections import Counter
 
 data = open("MOCK_DATA.csv", 'r')
 lines = data.readlines()
@@ -41,3 +42,10 @@ def toyotas_past_2000():
     print "%d Toyotas in the list past 2000" % total
 toyotas_past_2000() #This function counts all Toyotas in the list owned past the year 2000
 
+def popular_color():
+    color_counts = Counter(color)
+    list(color_counts)
+    most_c_color = max(color_counts)
+    color_total = color.count(most_c_color)
+    print ("The most common color is %s with a total count of %d") % (most_c_color, color_total)
+popular_color()
