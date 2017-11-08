@@ -55,8 +55,4 @@ def car_colors():
     return c_list
 
 def car_colors_counts():
-    color_counts = Counter(color)
-    for i in range(0, len(id_number)):
-        if i % 1 == 0:
-            
-    return color_counts
+    
