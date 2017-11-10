@@ -27,8 +27,8 @@ for i in range(1, len(lines)):
 # Works for finding 2006 make and models only
 #/////////////////////////////////////
 
-def given_year():
-    inputed_year = raw_input('Which year would you like make and models for? ')
+def given_year(i_year):
+    inputed_year = str(i_year)
     for i in range(0, len(id_number)):
         if year[i] == inputed_year:
             print inputed_year, make[i], model[i]
@@ -39,7 +39,7 @@ def toyotas_past_2000():
     for i in range(0, len(id_number)):
         if year[i] > "2000" and make[i] == "Toyota":
             total = total + 1
-    print "%d Toyotas in the list past 2000" % total
+    return "%d Toyotas in the list past 2000" % total
 #This function counts all Toyotas in the list owned past the year 2000
 
 def popular_color():
@@ -47,12 +47,13 @@ def popular_color():
     list(color_counts)
     most_c_color = max(color_counts)
     color_total = color.count(most_c_color)
-    print ("The most common color is %s with a total count of %d") % (most_c_color, color_total)
+    return ("The most common color is %s with a total count of %d") % (most_c_color, color_total)
 
 def car_colors():
     color_counts = Counter(color)
     c_list = list(color_counts)
     return c_list
 
-def car_colors_counts():
+
     
+ 
